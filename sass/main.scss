@@ -261,3 +261,19 @@ body {
   text-align: center;
   padding: 2.5rem;
 }
+
+
+.hotel-view {
+  background-color: #fff;
+
+  flex: 1;
+}
+
+.gallery {
+  display: flex;
+
+  &__photo {
+      width: 100%;
+      display: block;
+  }
+}
